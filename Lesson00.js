@@ -44,4 +44,14 @@ console.log(coefficient);
 // remainder operator
 var remainder = 24 % 2; // the remainder of the division 
 console.log(remainder);
-
+console.log(myVar);
+/* shortcuts*/
+// adding and assigning in the same line
+myVar += 4; //is the sames as myVar = myVar + 5;
+console.log(myVar);
+myVar -= 3; //is the same as myVar = myVar - 3;
+console.log(myVar);
+myVar *= 10; //is the same as myVar = myVar * 10;
+console.log(myVar);
+myVar /= 20; // is the same as myVar = myVar / 20;
+console.log(myVar);
