@@ -1,3 +1,6 @@
+/* These are my first lines of code 
+and these lines are been pushed to my GitHub account*/
+
 console.log("Hello from JavaScript");
 // in-line comment
 /* long comment  this is multi-line comment
@@ -15,3 +18,10 @@ let ourName = "My first project"; // let can be used only within the scop of whe
 // const declaration
 const pi = 3.14; // const cannot be changed
 
+
+/* assigning variables*/
+var a; // declaring a without assigning a value 
+var b = 2; // declaring b and assigning 2 as value
+a = 7; // assigning 7 to a as value
+b = a; //assigning b (that used to be 2) to a (that used to be 7) now b is 7 
+console.log(a); // printing 7 which is a's value  now
