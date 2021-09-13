@@ -25,3 +25,23 @@ var b = 2; // declaring b and assigning 2 as value
 a = 7; // assigning 7 to a as value
 b = a; //assigning b (that used to be 2) to a (that used to be 7) now b is 7 
 console.log(a); // printing 7 which is a's value  now
+var c = "I'm a string";
+console.log(c);
+// operators
+var sum = 10 + 10;
+// subtractions
+sum = sum + 3;
+console.log(sum);
+var myVar = 5;
+myVar++;
+console.log(myVar);
+myVar--;
+
+var product = myVar * sum;
+console.log(product);
+var coefficient = 24 / 2; // division
+console.log(coefficient);
+// remainder operator
+var remainder = 24 % 2; // the remainder of the division 
+console.log(remainder);
+
