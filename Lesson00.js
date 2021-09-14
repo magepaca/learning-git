@@ -55,3 +55,28 @@ myVar *= 10; //is the same as myVar = myVar * 10;
 console.log(myVar);
 myVar /= 20; // is the same as myVar = myVar / 20;
 console.log(myVar);
+
+/* Strings */
+var myString = "I want to use \"double\" quoted string within my text";
+console.log(myString);
+/* Code Output to scape a character with \
+\' single quote
+\" double quote
+\\ backslash
+\n newline
+\r carriage return
+\t tab
+\b backspace
+\f form feed
+*/
+// concatenate
+var myStr01 = "This is the start. " + "And this is the last part";
+console.log(myStr01);
+var myStr01 = myStr01 + " And that's it"
+console.log(myStr01);
+var strLength = 0;
+strLength = myStr01.length; // the length is an attribute of the string variable
+console.log(strLength);
+console.log(myStr01[0]); // the string is a vector an the first position starts in 0
+//a string variable cannot be change by vector position
+console.log(myStr01[myStr01.length - 1]);
