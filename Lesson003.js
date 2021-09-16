@@ -109,4 +109,4 @@ function testElseIf(val) {
 console.log(testElseIf(10));
 
 
-
+// https://www.youtube.com/watch?v=PkZNo7MFNFg time 1:25:48
